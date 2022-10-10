@@ -15,6 +15,14 @@
             "category": "Alimentação",
             "value": 80,
             "createdAt": "2022-10-10T13:10:12.386Z"
+        },
+        {
+            "id": 3,
+            "descripton": "Aluguel do apartamento",
+            "type": "outcome",
+            "category": "Casa",
+            "value": 1200,
+            "createdAt": "2022-03-27T13:10:12.386Z"
         }
     ]
 }
