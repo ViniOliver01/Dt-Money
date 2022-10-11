@@ -87,6 +87,22 @@
       "price": 123,
       "createdAt": "2022-10-11T12:48:53.769Z",
       "id": 11
+    },
+    {
+      "description": "suporte",
+      "type": "outcome",
+      "category": "eletronicos",
+      "price": 22,
+      "createdAt": "2022-10-11T14:05:50.418Z",
+      "id": 12
+    },
+    {
+      "description": "Steam",
+      "type": "outcome",
+      "category": "Jogos",
+      "price": 33,
+      "createdAt": "2022-10-11T14:06:13.662Z",
+      "id": 13
     }
   ]
 }
