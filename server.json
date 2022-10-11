@@ -1,36 +1,92 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "descripton": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "value": 14000,
-            "createdAt": "2022-10-10T13:32:12.386Z"
-        },
-        {
-            "id": 2,
-            "descripton": "Hamburgão",
-            "type": "outcome",
-            "category": "Alimentação",
-            "value": 80,
-            "createdAt": "2022-10-10T13:10:12.386Z"
-        },
-        {
-            "id": 3,
-            "descripton": "Aluguel do apartamento",
-            "type": "outcome",
-            "category": "Casa",
-            "value": 1200,
-            "createdAt": "2022-03-27T13:10:12.386Z"
-        },
-        {
-            "id": 4,
-            "descripton": "Desenvolvimento de APP",
-            "type": "income",
-            "category": "Venda",
-            "value": 12000,
-            "createdAt": "2022-10-10T13:32:12.386Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-10-10T13:32:12.386Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburgão",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 80,
+      "createdAt": "2022-10-10T13:10:12.386Z"
+    },
+    {
+      "id": 3,
+      "description": "Aluguel do apartamento",
+      "type": "outcome",
+      "category": "Casa",
+      "price": 1200,
+      "createdAt": "2022-03-27T13:10:12.386Z"
+    },
+    {
+      "id": 4,
+      "description": "Desenvolvimento de APP",
+      "type": "income",
+      "category": "Venda",
+      "price": 12000,
+      "createdAt": "2022-10-10T13:32:12.386Z"
+    },
+    {
+      "description": "Venda de Carro turbo",
+      "type": "income",
+      "category": "Carro",
+      "price": 23000,
+      "createdAt": "2022-10-11T12:21:51.878Z",
+      "id": 5
+    },
+    {
+      "description": "teste",
+      "type": "outcome",
+      "category": "aa",
+      "price": 123,
+      "createdAt": "2022-10-11T12:37:42.750Z",
+      "id": 6
+    },
+    {
+      "description": "Steam",
+      "type": "outcome",
+      "category": "Jogos",
+      "price": 22,
+      "createdAt": "2022-10-11T12:38:13.533Z",
+      "id": 7
+    },
+    {
+      "description": "Venda de Carro turbo",
+      "type": "outcome",
+      "category": "Carro",
+      "price": 22999,
+      "createdAt": "2022-10-11T12:39:07.576Z",
+      "id": 8
+    },
+    {
+      "description": "suporte",
+      "type": "outcome",
+      "category": "Jogos",
+      "price": 22,
+      "createdAt": "2022-10-11T12:43:33.026Z",
+      "id": 9
+    },
+    {
+      "description": "teste",
+      "type": "outcome",
+      "category": "Carro",
+      "price": 0.01,
+      "createdAt": "2022-10-11T12:48:37.539Z",
+      "id": 10
+    },
+    {
+      "description": "Steam",
+      "type": "outcome",
+      "category": "Jogos",
+      "price": 123,
+      "createdAt": "2022-10-11T12:48:53.769Z",
+      "id": 11
+    }
+  ]
 }

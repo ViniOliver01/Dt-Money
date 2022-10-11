@@ -13,7 +13,7 @@ interface Transaction {
   descripton: string;
   type: "income" | "outcome";
   category: string;
-  value: number;
+  price: number;
   createdAt: string;
 }
 
@@ -33,12 +33,12 @@ export function Transactions(){
             {transactions.map(transaction =>{
               return (
                 <tr key={transaction.id}>
-                <td width="50%">{transaction.descripton}</td>
+                <td width="50%">{transaction.description}</td>
                 <td>
                   <PriceHighLight variant={transaction.type}>
                     {transaction.type == 'outcome' ? 
-                      priceFormatter.format(transaction.value*-1) : 
-                      priceFormatter.format(transaction.value)}
+                      priceFormatter.format(transaction.price*-1) : 
+                      priceFormatter.format(transaction.price)}
                   </PriceHighLight>
                 </td>
                 <td>{transaction.category}</td>
